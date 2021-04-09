@@ -31,6 +31,12 @@
 				animation: zhuan 10s infinite linear ;
 				box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
 			}
+			@media(max-width: 500px) {
+				#八卦{
+				width: 200px;
+				height: 200px;
+				}
+			}
 			#八卦>div:first-child{
 				width: 50%;
 				height: 100%;
@@ -54,7 +60,13 @@
 				border-radius: 50%;
 				background: black;
 			}
-
+			@media(max-width: 500px){
+			#八卦>div:nth-child(3){
+				width: 100px;
+				height: 100px;
+				margin-left: -50px;
+				}
+			}
 			#八卦>div:nth-child(4){
 				position: absolute;
 				width: 200px;
@@ -65,7 +77,13 @@
 				border-radius: 50%;
 				background: white;
 			}
-
+			@media(max-width: 500px){
+			#八卦>div:nth-child(4){
+				width: 100px;
+				height: 100px;
+				margin-left: -50px;
+				}
+			}
 			#八卦>div:nth-child(5){
 				position: absolute;
 				width: 50px;
@@ -76,6 +94,14 @@
 				border-radius: 50%;
 				background: white;
 			}
+			@media(max-width: 500px){
+			#八卦>div:nth-child(5){
+				width: 25px;
+				height: 25px;
+				top: 37.5px;
+				margin-left: -12.5px;
+				}
+			}
 			#八卦>div:nth-child(6){
 				position: absolute;
 				width: 50px;
@@ -85,6 +111,14 @@
 				margin-left: -25px;
 				border-radius: 50%;
 				background: black;
+			}
+			@media(max-width: 500px){
+			#八卦>div:nth-child(6){
+				width: 25px;
+				height: 25px;
+				bottom: 37.5px;
+				margin-left: -12.5px;
+				}
 			}
 
 			#八卦-wrapper{
